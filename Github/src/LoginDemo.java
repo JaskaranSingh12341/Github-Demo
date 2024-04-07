@@ -8,6 +8,7 @@ public class LoginDemo extends JFrame implements ActionListener {
     JButton b;
 
     LoginDemo() {
+        setBackground(Color.blue);
         l1 = new JLabel("Email:");
         l1.setBounds(50, 70, 80, 30);
         l2 = new JLabel("Password:");
